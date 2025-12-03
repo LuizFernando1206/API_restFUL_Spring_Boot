@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    gap: 20px;
+    background: linear-gradient(135deg, #3A6B8C 0%, #2E5266 100%);
+}
+#cadastro, #metodos, #resultado {
+    padding: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background: white;
+}
+
+input, select, button {
+    width: 90%;
+    max-width: 280px;
+    padding: 6px;
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
